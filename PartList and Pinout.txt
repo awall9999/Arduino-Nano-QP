@@ -31,8 +31,8 @@ Pin1:	D2 (PD2/INT0)
 Pin2:	D3 (PD3/INT1)
 Pin3:	A4 (ADC4/SDA)
 Pin4:	A5 (ADC5/SCL)
-Pin5:	A6 (ADC6)
-Pin6:	A7 (ADC7)
+Pin5:	A6 (ADC6 no digital input)
+Pin6:	A7 (ADC7 no digital input)
 Pin7:	Gnd
 Pim8:	+Vin	(Can be used to power the board or to power an external device. 
 				Warning: It's the VIN Pin 1 of the Arduino. do not power the Arduino over USB and over the VIN together.
