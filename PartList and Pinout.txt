@@ -4,7 +4,7 @@ R1 		= Trimmer 10k (contrast)
 R2 		= 560R (Led Backlight)
 R3-R9 	= 20k (20k - 50k pull up resistor) If you use of the internal pullup of the arduino, you can leave them away
 Arduino Nano (or clone)
-7 Buttons (12mm*12mm)
+7 Buttons (12mm*12mm) Amazon,Ebay or verry cheap @ aliexpress
 
 
 LCD 	= Every LCD with 2 rows of 16 signs with the following pinout should work
