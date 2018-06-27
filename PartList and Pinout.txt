@@ -37,3 +37,6 @@ Pin7:	Gnd
 Pim8:	+Vin	(Can be used to power the board or to power an external device. 
 				Warning: It's the VIN Pin 1 of the Arduino. do not power the Arduino over USB and over the VIN together.
 				This could dammage your Pc!)
+				
+www.alainsprojects.com
+Testfile @ https://github.com/awall9999/Arduino-Nano-QP
