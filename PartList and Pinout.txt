@@ -35,4 +35,5 @@ Pin5:	A6 (ADC6)
 Pin6:	A7 (ADC7)
 Pin7:	Gnd
 Pim8:	+Vin	(Can be used to power the board or to power an external device. 
-				Warning: It's the VIN Pin 1 of the Arduino. do not power the Arduino over USB and over the VIN. This could dammage your Pc)
+				Warning: It's the VIN Pin 1 of the Arduino. do not power the Arduino over USB and over the VIN.
+				This could dammage your Pc)
