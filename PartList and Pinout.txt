@@ -12,17 +12,17 @@ LCD 	= Every LCD with 2 rows of 16 signs with the following pinout should work
 1:	VSS (GND)
 2:	VDD (+5V)
 3:	VE  (VO contrast)
-4:	RS
-5:	RW
-6:	E
+4:	RS					Pin 7
+5:	RW					
+6:	E					Pin 6
 7:	D0
 8:	D1
 9:	D2
 10:	D3
-11:	D4
-12:	D5
-13:	D6
-14:	D7
+11:	D4					Pin 11
+12:	D5					Pin 10
+13:	D6					Pin 9
+14:	D7					Pin	8
 15:	Led A +
 16: Led A -
 
