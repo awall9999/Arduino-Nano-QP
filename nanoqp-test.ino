@@ -45,6 +45,8 @@ int Pin1=2;
 int Pin2=3;
 int Pin3=18;
 int Pin4=19;
+int Analog1=20;
+int Analog2=21;
 
 
 
@@ -72,6 +74,8 @@ void setup() {
   digitalWrite(Pin3, HIGH);
   pinMode(Pin4, INPUT);
   digitalWrite(Pin4, HIGH);
+  pinMode(Analog1, INPUT);
+  pinMode(Analog2, INPUT);
   pinMode(LEDpin, OUTPUT);
 }
 
@@ -137,13 +141,15 @@ else if (digitalRead(Pin4) == 0) {
   
   
   else {
-    displaytext="Push a Button";
+    displaytext="Analog";
     digitalWrite(LEDpin, LOW);
     delay(10);
   }
     
     lcd.setCursor(0, 1);
-    lcd.print(displaytext);
-    delay (10) ;
+    lcd.print("                         ");
+    lcd.setCursor(0, 1);
+    lcd.print(displaytext+" "+ analogRead(Analog1)+" "+ analogRead(Analog2));
+    delay (400) ;
 }
 
