@@ -1,7 +1,7 @@
 Part List
 
-R1 		= Trimmer 10k (contrast)
-R2 		= 560R (Led Backlight)
+R1 		= Trimmer 10k or 20k (contrast)
+R2 		= 220R (Led Backlight)
 R3-R9 	= 20k (20k - 50k pull up resistor) If you use of the internal pullups of the arduino, you can leave them away
 Arduino Nano (or clone)
 7 Buttons (12mm*12mm) Amazon,Ebay or very cheap @ aliexpress
